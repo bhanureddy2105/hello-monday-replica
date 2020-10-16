@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}  
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 45px;
+    margin: 5px 0;
+    transition: margin-left 0.5s;
+}
+
+.nav-link:hover {
+    margin-left: 50px;
+}
+
+.navbar {
+    padding: 35px;
+}
+
+.navbar-toggler {
+    border-color: black !important;
+    transition: margin 0.5s;
+}
+
+.navbar-toggler:hover {
+    margin: 0 10px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Chonburi', cursive;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social i{
+    margin: 100px 20px 5px;
+    font-size: 20px;
+}
+.social a{
+    color: white;
+}
+
+.social a:hover{
+    opacity: 0.5;
+}
+.open {
+    background-color: black !important;
+}
+
+.open-link {
+    color: white !important;
+}
+
+.open-btn {
+    border-color: white !important;
+}
+
+.xIcon {
+    background-image: url('images/x.png') !important;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: auto; */
+    transition: margin-left 0.75s;
+}
+
+.img:hover {
+    margin-left: 75px;
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.carousel-inner h2 {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 80px;
+}
+
+.monday {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.monday p {
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.monday i {
+    margin-right: 5px;
+}
+.row{
+    margin: 0;
+}
+.card{
+    margin: 20px 0 100px;
+    border: none !important;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 60px !important;
+    cursor: pointer;
+}
+.card-title{
+    transition: border-radius 0.2s;
+}
+
+.card-title:hover{
+    border-radius: 15%;
+}
+.middle{
+    margin-top: 90px;
+}
+footer{
+    background-color:rgb(248, 246, 245);
+}
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* flex-grow: 2; */
+}
+.section{
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+footer img{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none !important;
+}
+
+.t{
+    color: grey;
+}
+/* media queries */
+@media(max-width:768px){
+    footer img{
+        display: none;
+    }
+    .btn{
+        width: 200px;
+    }
+    .card-title{
+        height: 250px;
+    }
+    .carousel-inner h2 {
+        font-size: 60px;
+    }
+    .social i{
+        margin: 100px 20px 5px;
+    }
+    
+    .img:hover {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:426px){
+    .img {
+        width: 50px;
+        height: 250px;
+        margin: 0 auto;
+        /* transition: none !important; */
+    }
+    .img:hover {
+        margin-left: 0;
+    }
+    .carousel-inner h2 {
+        font-size: 40px;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+    .card-title{
+        height: 200px;
+    }
+    .nav-link{
+        margin: 15px 0;
+        font-size: 30px;
+    }
+    .social i{
+        margin: 120px 20px 50px;
+    }
+}
+
+@media(max-width:350px){
+    body{
+        width: 350px;
+    }
+    .img:hover {
+        margin-left: 0;
+    }
+    
+}
