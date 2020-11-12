@@ -172,6 +172,14 @@ a{
 .t{
     color: grey;
 }
+
+.one{
+    margin-bottom: 50px;
+}
+
+h5{
+    color: black !important;
+}
 /* media queries */
 @media(max-width:768px){
     footer img{
