@@ -67,3 +67,13 @@ $(".title").click(function () {
     $(this).text("Email copied to clipboard");
     $(".footer img").attr("src", "images/footer2.gif");
 });
+
+
+$(".heading").hover(function () {
+        // over
+        $(".heading").addClass("h");
+    }, function () {
+        // out
+        $(".heading").removeClass("h");
+    }
+);

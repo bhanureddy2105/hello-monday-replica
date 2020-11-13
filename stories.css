@@ -1,0 +1,31 @@
+body{
+    background-color: #f8f6f5;
+}
+.heading{
+    padding: 10px 50px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size:4rem;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.h{
+    transition: margin-left 0.2s;
+}
+
+.h:hover{
+    margin-left: 50px;
+}
+
+.para{
+    color: grey;
+    padding: 0 50px;
+    display: inline;
+    /* margin: 10px; */
+    opacity: 0.7;
+}
+
+.stories{
+    margin-top: 50px;
+}
