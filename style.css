@@ -182,6 +182,9 @@ h5{
 }
 /* media queries */
 @media(max-width:768px){
+    body{
+        overflow: visible !important;
+    }
     footer img{
         display: none;
     }

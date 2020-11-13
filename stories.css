@@ -29,3 +29,18 @@ body{
 .stories{
     margin-top: 50px;
 }
+
+/* media queries */
+
+@media(max-width:720px){
+    .heading{
+        font-size: 2rem;
+        margin-right: 100px ;
+    }
+}
+
+@media(max-width:768px){
+    .heading{
+        margin-right: 180px;
+    }
+}
