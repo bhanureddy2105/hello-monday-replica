@@ -33,8 +33,11 @@ if (day == 1) {
 
 if (daysForMonday == 1) {
     $(".monday p").html('<p><i class="fas fa-calendar-week"></i>' + daysForMonday + " day until Monday </p>");
-} else {
+} else if(daysForMonday>1){
     $(".monday p").html('<p><i class="fas fa-calendar-week"></i>' + daysForMonday + " days until Monday </p>");
+}
+else{
+    $(".monday p").html('<p><i class="fas fa-calendar-week"></i>'+ " It's Monday Today!</p>");
 }
 
 // $(".title").mouseover(function () { 
